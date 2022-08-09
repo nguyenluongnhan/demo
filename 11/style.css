@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@300;400;600&family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(210, 36%, 96%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875rem;
+}
+
+.section {
+    padding: 5rem 0;
+}
+
+.title {
+    margin: 0 0 4rem;
+    text-align: center;
+}
+
+h1 {
+    text-transform: capitalize;
+    margin: 0 0 0.75rem;
+    font-size: 2rem;
+    line-height: 1.5;
+    letter-spacing: 0.25rem;
+    font-family: 'Roboto',sans-serif;
+    color: #102a42;
+}
+
+.title p {
+    margin: 0 auto;
+    color: #617d98;
+    line-height: 1.5;
+}
+
+.container {
+    width: 90vw;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.image {
+    margin: 0 0 2rem;
+}
+
+.image img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.content {
+    border-radius: 0.5rem;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    background: #fff;
+}
+
+.items {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.btn {
+    padding: 1rem 0;
+    font-size: 1rem;
+    background: #dae2ec;
+    text-transform: capitalize;
+    letter-spacing: 0.25rem;
+    border-color: transparent;
+}
+
+.content-details {
+    padding: 2rem 1.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.details {
+    display: none;
+}
+
+.details h4 {
+    margin: 0 0 0.75rem;
+    font-family: 'Roboto',sans-serif;
+    letter-spacing: 0.25rem;
+    text-transform: capitalize;
+}
+
+.details p {
+    margin: 0 0 1.25rem;
+    color: #617d98;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+ul {
+    list-style: none;
+    line-height: 1.5;
+    color: #102a42;
+}
+
+@media screen and (min-width: 992px) {
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0 2rem;
+        width: 95vw;
+    }
+}
+/* show */
+.show_content {
+    display: block;
+}
+
+.show_btn {
+    background: #fff;
+}

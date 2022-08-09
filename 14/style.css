@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@300;400;600&family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(210, 36%, 96%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875rem;
+}
+
+.section {
+    width: 90vw;
+    max-width: 35rem;
+    background: #fff;
+    padding: 2rem;
+    margin: 8rem auto 0 ;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.alert {
+    margin: 0 0 1rem;
+    height: 1.25rem;
+    border-radius: 0.5rem;
+    letter-spacing: 0.25rem;
+    text-transform: capitalize;
+    color: hsl(210, 22%, 49%);
+    display: grid;
+    text-align: center;
+    align-items: center;
+}
+
+.grocery h3 {
+    font-family: 'Roboto',sans-serif;
+    color: #063251;
+    font-size: 1.25rem;
+    margin: 0 0 1.5rem;
+    letter-spacing: 0.25rem;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 1.25;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+#grocery {
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border: transparent;
+    padding: 0.25rem 0.25rem 0.25rem 1rem;
+    font-size: 1rem;
+    background: hsl(210, 36%, 96%);;
+    color: hsl(210, 22%, 49%);
+    flex: 1 auto;
+    line-height: 1.375;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.submit {
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border: transparent;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    letter-spacing: 2px;
+    color: black;
+    background: #a5d5f8;
+    flex: 0 0 5rem;
+}
+
+.submit:hover {
+    cursor: pointer;
+    color: #fff;
+    background: #49a6e9;;
+    transition: all 0.3s linear;
+}
+
+.container {
+    margin-top: 2rem;
+    transition: all 0.3s linear;
+    /* visibility: hidden; */
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 0.5rem;
+    padding: 0.25rem 1rem;
+    color: #102a42;
+    line-height: 1.5;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.edit {
+    background: transparent;
+    border-color: transparent;
+    color: hsl(125, 71%, 66%);
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.edit:hover {
+    color: hsl(125, 67%, 44%);
+}
+
+.delete {
+    background: transparent;
+    border-color: transparent;
+    color: hsl(360, 71%, 66%);
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.delete:hover {
+    color: hsl(360, 67%, 44%);
+}
+
+.clear {
+    margin: 1.25rem auto 0;
+    display: grid;
+    place-items: center;
+    background: transparent;
+    border-color: transparent;
+    color: #e66b6b;
+    height: 1.5rem;
+    font-size: 00.875rem;
+    text-transform: capitalize;
+    letter-spacing: 0.25rem;cursor: pointer;
+}
+
+@media screen and (min-width: 800px){
+
+    .grocery h3 {
+        font-size: 1.75rem;
+        line-height: 1;
+    }
+
+    .content {font-size: 1rem;}
+}
+    
